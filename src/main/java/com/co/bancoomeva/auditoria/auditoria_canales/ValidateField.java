@@ -11,18 +11,14 @@ import com.co.bancoomeva.auditoria.auditoria_canales.model.FieldAuditoriaCanales
 public class ValidateField {
 
 	public void validateFieldAuditoriaCanales(FieldAuditoriaCanales auditoriaCanales) throws InputValidationException {
-
-		
-		System.out.println("auditoria: " + auditoriaCanales);
-		
+			
 		validateFieldNull("messageId", Optional.ofNullable(auditoriaCanales.getMessageId()));
 		validateFieldNull("invokerDateTime", Optional.ofNullable(auditoriaCanales.getInvokerDateTime()));
 		validateFieldNull("ipTransaccion", Optional.ofNullable(auditoriaCanales.getIpTransaccion()));
 		validateFieldNull("codTransaccion", Optional.ofNullable(auditoriaCanales.getCodTransaccion()));
 		validateFieldNull("canal", Optional.ofNullable(auditoriaCanales.getCanal()));
-		validateFieldNull("usuario", Optional.ofNullable(auditoriaCanales.getUsuario()));
-		
-		System.out.println("asad");
+		validateFieldNull("usuario", Optional.ofNullable(auditoriaCanales.getUsuario()));		
+	
 	}
 
 	public void validateFieldNull(String date, Optional<String> value) throws InputValidationException {
