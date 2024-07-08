@@ -4,6 +4,8 @@ public class Commons {
 
 	public static final String MSG_INTERNAL_SERVER_ERROR = "Internal server error";
 	public static final String MSG_UNAUTHORIZED = "Invalid credentials"; 
+	public static final String MSG_BODY_NULL = "The body cant be null or empty";	
+	public static final String MSN_HEADER_NON_PRESENT = "header parameters cannot be null or empty";	
 	
 	public static final int SCODE_INTERNAL_SERVER_ERROR = 500;
 	public static final int BAD_REQUETS = 400;
