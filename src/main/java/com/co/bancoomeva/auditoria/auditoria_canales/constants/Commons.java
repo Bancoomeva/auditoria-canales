@@ -10,7 +10,6 @@ public class Commons {
 	public static final String MSN_FILED_DATE_ISO_8601_ERROR = "The field '?' have not date format, the date format valid is 'YYYY-MM-DDThh:mm:ss'.";
 	public static final String FORMAN = "¿";
 	public static final String FIELD = "?";
-	
 
 	public static final String MSG_INTERNAL_SERVER_ERROR = "Internal server error";
 	public static final String MSG_UNAUTHORIZED = "Invalid credentials";

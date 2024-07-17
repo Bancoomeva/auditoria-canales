@@ -77,7 +77,7 @@ public class ValidateField {
 
 		validateFieldNull(FIELD_MESSAGE_ID, Optional.ofNullable(auditoriaCanales.getMessageId()));
 		validateFieldNull(FIELD_INVOKER_DATE_TIME, Optional.ofNullable(auditoriaCanales.getInvokerDateTime()));
-		validateRegEx(auditoriaCanales.getInvokerDateTime(), REGEX_DATE_ISO_8601, MSN_FILED_DATE_ISO_8601_ERROR.replace(FIELD, FIELD_INVOKER_DATE_TIME));		
+		validateRegEx(auditoriaCanales.getInvokerDateTime(), REGEX_DATE_ISO_8601, MSN_FILED_DATE_ISO_8601_ERROR.replace(FIELD, FIELD_INVOKER_DATE_TIME));
 		validateFieldNull(FIELD_IP_TRANSACTION, Optional.ofNullable(auditoriaCanales.getIpTransaccion()));
 		validateFieldIp(FIELD_IP_TRANSACTION, auditoriaCanales.getIpTransaccion());
 		validateFieldNull(FIELD_COD_TRANSACTION, Optional.ofNullable(auditoriaCanales.getCodTransaccion()));
@@ -95,10 +95,10 @@ public class ValidateField {
 		}
 	}
 
-	public void validateFieldNull(String data, Optional<String> value) throws InputValidationException {
-		if (value.isEmpty()) {
-			LOGGER.debug("Invoque InputValidationException validateFieldNull: " + data);
-			throw new InputValidationException(MSN_FIELD_NUNABLE_ERROR.replace(FIELD, data));
+	public void validateFieldNull(String field, Optional<String> value) throws InputValidationException {		
+		if (value.isEmpty() || value.get().isBlank()) {
+			LOGGER.debug("Invoque InputValidationException validateFieldNull: " + field);
+			throw new InputValidationException(MSN_FIELD_NUNABLE_ERROR.replace(FIELD, field));
 		}
 	}
 
@@ -126,6 +126,6 @@ public class ValidateField {
 			return true;
 		}
 		return false;
-	}	
+	}
 
 }
