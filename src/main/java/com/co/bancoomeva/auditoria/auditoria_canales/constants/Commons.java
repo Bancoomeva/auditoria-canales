@@ -10,9 +10,12 @@ public class Commons {
 	public static final String MSN_FILED_DATE_ISO_8601_ERROR = "The field '?' have not date format, the date format valid is 'YYYY-MM-DDThh:mm:ss'.";
 	public static final String FORMAN = "¿";
 	public static final String FIELD = "?";
+<<<<<<< HEAD
 	public static final String REQUEST_ID_EXCEEDS = "Request-id parameter exceeds 36 characters.";
 
 	public static final int CARACTER_REQUEST_ID = 36;
+=======
+>>>>>>> f8e27da5c08bfbaa670e88358b0562889e3793f5
 
 	public static final String MSG_INTERNAL_SERVER_ERROR = "Internal server error";
 	public static final String MSG_UNAUTHORIZED = "Invalid credentials";
