@@ -2,16 +2,16 @@ package com.co.bancoomeva.auditoria.auditoria_canales.model;
 
 public class DetailsTransacction {
 
-	private Headers headers;
+	private HeadersAuditoria headers;
 	private String contexto;
 	private String httpMethod;
 	private String body;
 
-	public Headers getHeaders() {
+	public HeadersAuditoria getHeaders() {
 		return headers;
 	}
 
-	public void setHeaders(Headers headers) {
+	public void setHeaders(HeadersAuditoria headers) {
 		this.headers = headers;
 	}
 

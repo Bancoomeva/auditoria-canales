@@ -2,12 +2,12 @@ package com.co.bancoomeva.auditoria.auditoria_canales.constants;
 
 public class Constants {
  	 
-	 public static final String FIELD_MESSAGE_ID = "messageId";
-	 public static final String FIELD_INVOKER_DATE_TIME =  "invokerDateTime";
-	 public static final String FIELD_IP_TRANSACTION  = "ipTransaccion";
+	 public static final String FIELD_DATE_TIME = "request-date-time";
+	 public static final String FIELD_RESQUEST_ID =  "request-id";
+	 public static final String FIELD_IP_TERMINAL  = "ip-terminal";
 	 public static final String FIELD_COD_TRANSACTION =   "codTransaccion";
-	 public static final String FIELD_CHANNEL = "canal";
-	 public static final String FIELD_USER = "usuario";
+	 public static final String FIELD_CHANNEL = "channel";
+	 public static final String FIELD_USER_LOGIN = "user-login";
 	 
 	 public static final String REGEX_POSITIVE_NUMBER = "\\d*\\.?\\d+";
 	 public static final String REGEX_IP_V4 = "^((25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)(\\.|\\b)){4}$"; 	 
