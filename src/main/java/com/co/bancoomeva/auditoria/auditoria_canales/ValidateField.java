@@ -57,7 +57,7 @@ public class ValidateField {
 
 		LOGGER.debug("Invoque method validateFieldAuditoriaCanales: " + INIT);
 
-<<<<<<< HEAD
+
 		validateFieldNull(FIELD_DATE_TIME, Optional.ofNullable(auditoriaCanales.getRequest_date_time()));
 		validateRegEx(auditoriaCanales.getRequest_date_time(), REGEX_DATE_ISO_8601, MSN_FILED_DATE_ISO_8601_ERROR.replace(FIELD, FIELD_DATE_TIME));
 		validateSize(auditoriaCanales.getRequest_id(), CARACTER_REQUEST_ID,	REQUEST_ID_EXCEEDS);
@@ -65,17 +65,7 @@ public class ValidateField {
 		validateFieldIp(FIELD_IP_TERMINAL, auditoriaCanales.getIp_terminal());
 		validateFieldNull(FIELD_CHANNEL, Optional.ofNullable(auditoriaCanales.getChannel()));
 		validateFieldNull(FIELD_USER_LOGIN, Optional.ofNullable(auditoriaCanales.getUser_login()));
-=======
-		validateFieldNull(FIELD_MESSAGE_ID, Optional.ofNullable(auditoriaCanales.getMessageId()));
-		validateFieldNull(FIELD_INVOKER_DATE_TIME, Optional.ofNullable(auditoriaCanales.getInvokerDateTime()));
-		validateRegEx(auditoriaCanales.getInvokerDateTime(), REGEX_DATE_ISO_8601, MSN_FILED_DATE_ISO_8601_ERROR.replace(FIELD, FIELD_INVOKER_DATE_TIME));
-		validateFieldNull(FIELD_IP_TRANSACTION, Optional.ofNullable(auditoriaCanales.getIpTransaccion()));
-		validateFieldIp(FIELD_IP_TRANSACTION, auditoriaCanales.getIpTransaccion());
-		validateFieldNull(FIELD_COD_TRANSACTION, Optional.ofNullable(auditoriaCanales.getCodTransaccion()));
-		validateFieldNull(FIELD_CHANNEL, Optional.ofNullable(auditoriaCanales.getCanal()));
-		validateRegEx(auditoriaCanales.getCanal(), REGEX_POSITIVE_NUMBER, MSN_FILED_NUMBER_ERROR.replace(FIELD, FIELD_CHANNEL));
-		validateFieldNull(FIELD_USER, Optional.ofNullable(auditoriaCanales.getUsuario()));
->>>>>>> f8e27da5c08bfbaa670e88358b0562889e3793f5
+
 
 		LOGGER.debug("Invoque method validateFieldAuditoriaCanales: " + FINISHED);
 
@@ -118,7 +108,6 @@ public class ValidateField {
 			return true;
 		}
 		return false;
-<<<<<<< HEAD
 	}	
   
   public void valideteBoolean(String data, String message, String nameData) throws InputValidationException{
@@ -132,8 +121,4 @@ public class ValidateField {
 	  }
 	 
   }
-=======
 	}
-
->>>>>>> f8e27da5c08bfbaa670e88358b0562889e3793f5
-}
