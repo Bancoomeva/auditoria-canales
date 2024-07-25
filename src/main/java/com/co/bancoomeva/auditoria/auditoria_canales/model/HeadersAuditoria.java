@@ -2,7 +2,7 @@ package com.co.bancoomeva.auditoria.auditoria_canales.model;
 
 public class HeadersAuditoria {
 
-	private String   request_date_time;
+	private String request_date_time;
 	private String channel;
 	private String request_id;
 	private String ip_terminal;

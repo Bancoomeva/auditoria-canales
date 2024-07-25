@@ -1,4 +1,6 @@
-package com.co.bancoomeva.auditoria.auditoria_canales.model;
+package com.co.bancoomeva.auditoria.auditoria_canales.model.log;
+
+import com.co.bancoomeva.auditoria.auditoria_canales.model.HeadersAuditoria;
 
 public class DetailsTransacction {
 

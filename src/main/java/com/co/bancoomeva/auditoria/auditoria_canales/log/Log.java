@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
-import com.co.bancoomeva.auditoria.auditoria_canales.model.auditoria.Header;
+import com.co.bancoomeva.auditoria.auditoria_canales.model.Header;
 import com.co.bancoomeva.auditoria.auditoria_canales.model.log.LogTransaction;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

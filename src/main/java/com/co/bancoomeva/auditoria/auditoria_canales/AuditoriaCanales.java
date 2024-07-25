@@ -1,7 +1,7 @@
 package com.co.bancoomeva.auditoria.auditoria_canales;
 
 import com.co.bancoomeva.auditoria.auditoria_canales.exceptio.InputValidationException;
-import com.co.bancoomeva.auditoria.auditoria_canales.model.auditoria.Header;
+import com.co.bancoomeva.auditoria.auditoria_canales.model.Header;
 
 import static com.co.bancoomeva.auditoria.auditoria_canales.constants.Commons.CARACTER_REQUEST_ID;
 import static com.co.bancoomeva.auditoria.auditoria_canales.constants.Commons.FIELD;

@@ -1,4 +1,4 @@
-package com.co.bancoomeva.auditoria.auditoria_canales.model;
+package com.co.bancoomeva.auditoria.auditoria_canales.model.log;
 
 import java.sql.Timestamp;
 

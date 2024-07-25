@@ -1,4 +1,4 @@
-package com.co.bancoomeva.auditoria.auditoria_canales.model.auditoria;
+package com.co.bancoomeva.auditoria.auditoria_canales.model;
 
 public class Header {
 

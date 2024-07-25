@@ -1,11 +1,3 @@
-com\co\bancoomeva\auditoria\auditoria_canales\exceptio\InputValidationException.class
-com\co\bancoomeva\auditoria\auditoria_canales\model\log\DetailsTransacction.class
-com\co\bancoomeva\auditoria\auditoria_canales\log\Log.class
-com\co\bancoomeva\auditoria\auditoria_canales\model\auditoria\Header.class
-com\co\bancoomeva\auditoria\auditoria_canales\model\auditoria\HeadersAuditoria.class
-com\co\bancoomeva\auditoria\auditoria_canales\constants\Constants.class
-com\co\bancoomeva\auditoria\auditoria_canales\exceptio\UnauthorizedException.class
-com\co\bancoomeva\auditoria\auditoria_canales\ValidateField.class
-com\co\bancoomeva\auditoria\auditoria_canales\model\log\LogTransaction.class
-com\co\bancoomeva\auditoria\auditoria_canales\constants\Commons.class
-com\co\bancoomeva\auditoria\auditoria_canales\AuditoriaCanales.class
+com\co\bancoomeva\auditoria\auditoria_canales\model\LogTransaction.class
+com\co\bancoomeva\auditoria\auditoria_canales\model\DetailsTransacction.class
+com\co\bancoomeva\auditoria\auditoria_canales\model\HeadersAuditoria.class
